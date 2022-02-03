@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Nunito', sans-serif; 
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height:1000px ;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left_Side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.ProfileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
+
+}
+.ProfileText .imgbx{
+    position: relative;
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     overflow:hidden;
+}
+.ProfileText .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+     width: 100%;
+     height:100%;
+     object-fit: cover;
+     
+}
+.ProfileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.ProfileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contectInfo{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+.contectInfo ul{
+    position: relative;
+}
+.contectInfo ul {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contectInfo ul .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.contectInfo ul span{
+    color: #fff;
+}
+.contectInfo span .icon1{
+    color: #fff;
+}
+.contectInfo.skills .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:#003147;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.contectInfo.skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:#fff ;
+}
+ 
+.container .right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #000;
+}
